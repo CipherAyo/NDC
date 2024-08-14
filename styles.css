@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.firstbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 2px;
+}
+
+.logo img{
+width: 160px;
+height: 90px;
+object-fit: contain;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.information{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone img{
+    width: 40px;
+}
+
+.phonetext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.mail img{
+    width: 40px;
+}
+.mailtext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.location img{
+    width: 40px;
+}
+
+.locationtext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.listbar{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    background-color: #283f68;
+}
+ 
+.listbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.listbar button{
+    width: 70px;
+    height: 20pcx;
+}
+.listbar img{
+   width: 30px;
+   color: white;
+}
